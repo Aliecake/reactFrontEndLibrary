@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import Cookies from 'js-cookie';
 import Nprogress from 'nprogress';
 // import Router from 'next/router';
 
