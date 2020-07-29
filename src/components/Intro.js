@@ -1,5 +1,5 @@
 import React from 'react';
-import eLearningImg from '../images/elearning.jpg';
+import eLearningImg from '../images/elearning2.jpg';
 
 
 const Intro = props => (
