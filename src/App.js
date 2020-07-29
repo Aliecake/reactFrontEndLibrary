@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './styles/App.css';
 import Header from './components/Header';
+import Intro from './components/Intro';
 import Courses from './components/Course/Courses';
 import CourseDetail from './components/Course/CourseDetail';
 import NotFound from './components/NotFound';
@@ -29,6 +30,7 @@ export default () => (
   <Router>
     <div>
       <HeaderWithContext />
+      <Intro />
       <Switch>
         <Route exact path="/" component={CoursesWithContext} />
 
